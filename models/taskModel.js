@@ -29,6 +29,11 @@ const taskSchema = new mongoose.Schema({
 		cast: `A task completion status must be either 'true' or 'false'.`,
 		default: false,
 	},
+	user: {
+		type: mongoose.Schema.ObjectId,
+		ref: 'User',
+		required: [true, 'A task must belong to a user.'],
+	},
 	createdAt: {
 		type: Date,
 		default: Date.now(),
@@ -36,6 +41,6 @@ const taskSchema = new mongoose.Schema({
 	},
 });
 
-const Task = mongoose.model('Tasks', taskSchema);
+const Task = mongoose.model('Task', taskSchema);
 
 module.exports = Task;
