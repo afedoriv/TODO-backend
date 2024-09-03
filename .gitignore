@@ -1,2 +1,8 @@
-node_modules/
+# dependencies
+/node_modules
+
+# environment files
 *.env
+
+# macOS specific files
+.DS_Store

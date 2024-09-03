@@ -9,6 +9,7 @@ process.on('uncaughtException', (err) => {
 });
 
 dotenv.config();
+
 const app = require('./app');
 
 const DB_LINK = process.env.DATABASE_LINK.replace(
@@ -21,7 +22,8 @@ mongoose
 	.connect(DB_LINK)
 	.then(() => console.log('Has connected to the database.'));
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.port || 8080;
+
 const server = app.listen(PORT, () => {
 	console.log(`Server listening on port: ${PORT}`);
 });

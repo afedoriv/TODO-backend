@@ -1,11 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/alina-fedoriv-89868720b/)
-
-<br />
-
 <a href="https://alinafedoriv-todo.netlify.app/" target="_blank">
     <img src="https://github.com/afedoriv/TODO-backend/assets/99702784/6d6f56a4-6801-4c3a-b04b-36dae7c9a0bf" alt="Logo" width="80">
 </a>
@@ -44,7 +39,7 @@ This repository serves as the backend implementation for the <strong>TODO app</s
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#project-links">Project Links</a></li>
   </ol>
 </details>
 
@@ -217,13 +212,10 @@ These technologies collectively contribute to the efficiency, scalability, and m
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
+## Project Links
 
-Feel free to connect or reach out! You can contact me at fedoriv2023@gmail.com.
-
-Project Links:
-
--   **Frontend** - [https://github.com/afedoriv/TODO-frontend](https://github.com/afedoriv/TODO-frontend)
--   **Backend** - [https://github.com/afedoriv/TODO-backend](https://github.com/afedoriv/TODO-backend)
+-   **Live Demo:** [TODO App](https://alinafedoriv-todo.netlify.app)
+-   **Frontend Repository:** - [TODO Frontend GitHub](https://github.com/afedoriv/TODO-frontend)
+-   **Backend Repository:** - [TODO Backend GitHub](https://github.com/afedoriv/TODO-backend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
